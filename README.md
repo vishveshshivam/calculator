@@ -17,4 +17,4 @@
             </a></div>
             <br>
             
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula )]
+(https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula )
