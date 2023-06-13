@@ -1,6 +1,7 @@
 # calculator
 - View Demo
 
+![Screenshot 2023-06-14 024531](https://github.com/vishveshshivam/calculator/assets/64953411/b780ae9a-7d04-491d-b68f-d68992fd91ae)
 
 <a href="https://raw.githack.com/vishveshshivam/calculator/0090f0eb55039205b5424442f69f94fcafd7605e/index.html" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
@@ -18,4 +19,5 @@
             <br>
             
 
-[Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula )
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula )]
