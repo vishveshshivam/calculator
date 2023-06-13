@@ -1,80 +1,80 @@
-*
-{
-    margin:0;
-    padding:0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
     box-sizing: border-box;
 }
-body{
-    width:100%;
-    height:auto;
+
+body {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#main
-{
-    width:360px;
+
+#main {
+    width: 360px;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
     margin: 10px 0;
-
 }
-#screen
-{
-    width:100%;
-    height:150px;
+
+#screen {
+    width: 100%;
+    height: 150px;
     resize: none;
     outline: none;
     border: none;
     font-size: 2rem;
     word-wrap: break-word;
-
 }
-#buttons
-{
+
+#buttons {
     display: flex;
     flex-direction: column;
 }
-.btnline
-{
+
+.btnline {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
     margin: 5px 0 0 0;
     gap: 10x;
     text-align: center;
 }
-.btn
-{
+
+.btn {
     font-size: 2rem;
     font-weight: 200;
     background-color: rgb(236, 234, 234);
-    padding:10px;
+    padding: 10px;
     margin: 2%;
-    width:21%;
+    width: 21%;
     cursor: pointer;
     transition: background-color 0.8s;
 }
-.btn:hover
-{
-    background-color:  rgb(194, 192, 192);
+
+.btn:hover {
+    background-color: rgb(194, 192, 192);
 }
-.btn-primary
-{
+
+.btn-primary {
     background-color: dodgerblue;
-    color: white;   
+    color: white;
     transition: background-color 0.8s;
 }
-.btn-primary:hover
-{
-    background-color:  rgb(6, 92, 179);
+
+.btn-primary:hover {
+    background-color: rgb(6, 92, 179);
 }
-.primary{
+
+.primary {
     color: dodgerblue;
 }
 
@@ -83,18 +83,19 @@ body{
     transition: all 0.1s ease 0.5s;
     visibility: visible;
 }
+
 [data-title]:after {
     content: attr(data-title);
     position: absolute;
     top: -30px;
     left: 50%;
-    transform: translate(-50%,0%);
+    transform: translate(-50%, 0%);
     padding: 4px;
     color: #222;
-    white-space: nowrap; 
-    -moz-border-radius: 5px; 
-    -webkit-border-radius: 5px;  
-    border-radius: 5px;  
+    white-space: nowrap;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     background-color: dodgerblue;
     color: aliceblue;
     font-weight: 100;
@@ -103,21 +104,22 @@ body{
     z-index: 99999;
     visibility: hidden;
 }
+
 [data-title] {
     position: relative;
 }
-.note
-{
+
+.note {
     display: block;
     color: red;
     margin-bottom: 10px;
     text-align: center;
 }
-.lg
-{
-    width:71%;
+
+.lg {
+    width: 71%;
 }
-.reduce
-{
+
+.reduce {
     padding: 7px 10px;
 }
