@@ -56,7 +56,7 @@ body{
     background-color: rgb(236, 234, 234);
     padding:10px;
     margin: 2%;
-    width:24%;
+    width:21%;
     cursor: pointer;
     transition: background-color 0.8s;
 }
@@ -112,4 +112,12 @@ body{
     color: red;
     margin-bottom: 10px;
     text-align: center;
+}
+.lg
+{
+    width:71%;
+}
+.reduce
+{
+    padding: 7px 10px;
 }
